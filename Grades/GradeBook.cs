@@ -9,7 +9,7 @@ namespace Grades
         public GradeBook()
         {
             _name = "Empty";
-            grades = new List<float>();
+            grades = new List<float>(); //
         }
 
         public GradeStatistics ComputeStatistics()
